@@ -1,10 +1,10 @@
 export function  getAllNotes  (req,res)  {
-    res.status(200).send("You just fetche the getAllNotes")
+    res.status(200).send("test")
 
 }
 
 export function  createNotes (req,res) {
-    res.status(201).send("you just created a createNotes")
+    res.status(201).send("created the notes")
 }
 
 
